@@ -1,0 +1,37 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <!--Sidebar content-->
+
+      <p>
+        Search:
+        <input ng-model="$ctrl.query" />
+      </p>
+
+      <p>
+        Sort by:
+        <select ng-model="$ctrl.orderProp">
+          <option value="name">Alphabetical</option>
+          <option value="age">Newest</option>
+        </select>
+      </p>
+
+    </div>
+    <div class="col-md-10">
+      <!--Body content-->
+
+      <ul class="phones">
+        <li ng-repeat="song in $ctrl.songs | filter:$ctrl.query | orderBy:$ctrl.orderProp"
+            class="thumbnail phone-list-item">
+          <a href="#!/phones/{{phone.id}}" class="thumb">
+            <img ng-src="{{song.imageUrl}}" alt="{{song.title}}" />
+          </a>
+          <a href="#!/phones/{{phone.id}}">{{song.title}}</a>
+          <p>{{song.author}}</p>
+          <audio ng-src="{{song.songUrl}}" controls></audio>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</div>

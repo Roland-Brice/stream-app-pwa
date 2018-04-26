@@ -1,0 +1,30 @@
+[
+    {
+        "id": "audio1",
+        "title": "Na Meya",
+        "imageUrl": "./images/audio1.png",
+        "author": "Artist1",
+        "songUrl": "./audios/audio1.mp3"
+    },
+    {
+        "id": "audio2",
+        "title": "Aleatoire",
+        "imageUrl": "./images/audio2.jpg",
+        "author": "Art",
+        "songUrl": "./audios/audio2.mp3"
+    },
+    {
+        "id": "audio3",
+        "title": "Mock",
+        "imageUrl": "./images/audio3.png",
+        "author": "ZER",
+        "songUrl": "./audios/audio3.mp3"
+    },
+    {
+        "id": "audio4",
+        "title": "Random",
+        "imageUrl": "./images/yeoman.png",
+        "author": "CDffe",
+        "songUrl": "./audios/audio4.mp3"
+    }
+]
