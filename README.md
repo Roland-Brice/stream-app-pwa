@@ -5,3 +5,4 @@ N'oubliez pas d'entrer les commandes ci-dessous :
 *`bower install`
 
 Pour lancer l'application faites `npm start`
+ bjr
