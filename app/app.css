@@ -1,10 +1,12 @@
 body {
-  padding: 20px;
+  padding-top: 40px;
+  position : relative;
 }
 
 h1 {
   border-bottom: 1px solid gray;
   margin-top: 0;
+
 }
 
 /* View: song list */
@@ -120,16 +122,30 @@ h1 {
 
 @media (min-width:768px ) and (max-width: 979px)
 {
-  .hidden-desktop {
-    display: inherit !important;
+  .row {
+    margin-left: -20px;
+    *zoom: 1;
   }
-  .visible-desktop {
-    display: none !important ;
+  .row:before,
+  .row:after {
+    display: table;
+    line-height: 0;
+    content: "";
   }
-  .visible-tablet {
-    display: inherit !important;
+  .row:after {
+    clear: both;
   }
-  .hidden-tablet {
-    display: none !important;
+  [class*="span"] {
+    float: left;
+    min-height: 1px;
+    margin-left: 20px;
   }
+  .view-container,
+  .navbar-static-top .view-container,
+  .navbar-fixed-top .view-container,
+  .navbar-fixed-bottom .view-container {
+    width: 724px;
+  }
+ 
+
 }
