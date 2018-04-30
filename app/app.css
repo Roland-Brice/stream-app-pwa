@@ -39,7 +39,7 @@ h1 {
 }
 
 .song:first-child {
-  display: block;
+  display: none;
 }
 
 .song-images {
