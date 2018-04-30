@@ -23,10 +23,10 @@
       <ul class="phones">
         <li ng-repeat="song in $ctrl.songs | filter:$ctrl.query | orderBy:$ctrl.orderProp"
             class="thumbnail phone-list-item">
-          <a href="#!/phones/{{phone.id}}" class="thumb">
+          <a href="#" class="thumb">
             <img ng-src="{{song.imageUrl}}" alt="{{song.title}}" />
           </a>
-          <a href="#!/phones/{{phone.id}}">{{song.title}}</a>
+          <a href="#">{{song.title}}</a>
           <p>{{song.author}}</p>
           <audio ng-src="{{song.songUrl}}" controls></audio>
         </li>
