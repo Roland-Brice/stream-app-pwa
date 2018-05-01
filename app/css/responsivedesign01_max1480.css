@@ -1,0 +1,18 @@
+@media screen and (max-width: 1480px)
+{
+
+body,
+#col-md-10
+{
+  width:1200px;
+}
+
+
+.thumbnail
+{
+  width:700px;
+
+
+}
+
+}

@@ -1,0 +1,74 @@
+/* NIVEAU : BODY */
+
+body
+{
+  margin:0;
+  padding:0;
+  background:white url('images/bg_page.jpg');
+  font-family: sans-serif;
+  font-weight:normal;
+  font-size:14px;
+}
+
+/* NIVEAU : WRAPPER */
+
+song-list
+{
+  width:1440px;
+  margin:20px auto;
+  background:white url('images/bg_2col.jpg') repeat-y 0 0;
+  border:1px solid #00a2e8;
+}
+
+/* NIVEAU : HEADER, MAIN et RESET */
+
+
+ .thumbnail,
+ .thumb
+{
+  padding:20px;
+}
+
+song-list
+{
+  float:left;
+  width:260px;
+  color:white;
+}
+
+.thumb,
+.thumbnail
+{
+  float:right;
+  width:1100px;
+}
+
+
+{
+  clear:both;
+}
+
+/* SECTION : LOGO et SLOGAN */
+
+.thumb
+{
+  text-align:center;
+  border-bottom:1px solid white;
+  margin-bottom:20px;
+}
+
+#col-md-2
+{
+  width:160px;
+}
+
+p,
+.thumbnail,
+{
+  font-size:24px;
+  font-weight:bold;
+  letter-spacing:3px;
+  word-spacing:10px;
+}
+
+
