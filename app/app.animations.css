@@ -39,7 +39,7 @@
 .view-frame.ng-leave {
   background: white;
   left: 0;
-  position: relative;
+  position: absolute;
   right: 0;
   top: 0;
 }
@@ -63,4 +63,3 @@
   from { opacity: 1; }
   to   { opacity: 0; }
 }
-
