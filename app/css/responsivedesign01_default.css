@@ -4,23 +4,23 @@ body
 {
   margin:0;
   padding:0;
-  background:white url('images/bg_page.jpg');
+
   font-family: sans-serif;
-  font-weight:normal;
+  font-weight:inherit;
   font-size:14px;
 }
 
-/* NIVEAU : WRAPPER */
 
-song-list
+
+song-list,
+img,
+.audios
 {
   width:1440px;
   margin:20px auto;
-  background:white url('images/bg_2col.jpg') repeat-y 0 0;
   border:1px solid #00a2e8;
 }
 
-/* NIVEAU : HEADER, MAIN et RESET */
 
 
  .thumbnail,
@@ -44,13 +44,9 @@ song-list
 }
 
 
-{
-  clear:both;
-}
 
-/* SECTION : LOGO et SLOGAN */
 
-.thumb
+p
 {
   text-align:center;
   border-bottom:1px solid white;
@@ -63,7 +59,7 @@ song-list
 }
 
 p,
-.thumbnail,
+
 {
   font-size:24px;
   font-weight:bold;

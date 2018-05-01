@@ -5,8 +5,9 @@ body
 {
   width:960px;
 }
-
-.thumbnail,.thumb,
+.thumbnail,
+.audios
+img
 
 {
   width:620px;

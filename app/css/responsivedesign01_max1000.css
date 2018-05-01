@@ -1,32 +1,37 @@
 @media screen and (max-width: 1000px)
 {
 
-song-list
+song-list,
+.audios,
+img
 {
-  width:96%;
-  margin:2%;
+  width:90%;
+  margin:4px;
   background-image:none;
 }
 
-.view-container
+.view-container,
+.thumbnail
+
 {
-  padding:2%;
+  padding:6px;
 }
 
-.view-frame
+.view-frame,
+img
 {
   float:none;
-  width:100%;
+  width:96%;
   background-color:lightgrey;
 }
 
 .container-fluid
 {
   float:none;
-  width:96%;
+  width:80%;
 }
 
-audio
+.audios
 {
   max-width:1000px;
 }

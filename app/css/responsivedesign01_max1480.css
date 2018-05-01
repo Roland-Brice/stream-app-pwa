@@ -2,12 +2,15 @@
 {
 
 body,
-#col-md-10
+.audios,
+#col-md-10,
+img
 {
   width:1200px;
 }
 
 
+body,
 .thumbnail
 {
   width:700px;

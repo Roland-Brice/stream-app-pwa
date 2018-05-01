@@ -1,15 +1,18 @@
 @media screen and (max-width: 400px)
 {
 
-body,
+
 #col-md-10,
 .thumbnail,
-audio
+img,
+div,
+song-list
+.row
 {
   float:none;
-  width:80%;
+  width:80px;
   max-width:none;
-  margin:2%; 
+  margin:3px; 
 }
 
 }
