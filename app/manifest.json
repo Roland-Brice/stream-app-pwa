@@ -5,10 +5,10 @@
            "description": "The ultimate futuristic streaming app from the future!",
            "short_name": "First App",
            "icons": [{
-             "src": "./favicon.ico",
-             "sizes": "32x32",
-             "type": "image/ico"
-           },{
+            "src": "./favicon.ico",
+            "sizes": "32x32",
+            "type": "image/ico"
+          },{
              "src": "images/yeoman.png",
              "sizes": "103x89",
              "type": "image/png"
@@ -16,13 +16,21 @@
              "src": "images/yeoman144.png",
              "sizes": "144x144",
              "type": "image/png"
-           }],
+           },{
+            "src": "images/yeoman192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+          },{
+            "src": "images/yeoman512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+          }],
            "start_url": "./index.html",
            "display": "standalone",
            "orientation": "portrait",
            "theme_color": "aliceblue",
            "background_color": "red",
            "serviceworker": {
-             "src": "./sw.js"
-           }
+            "src": "./sw.js"
+          }
 }

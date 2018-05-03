@@ -6,12 +6,14 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="app.css"  />
     <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
-    
+    <link rel="manifest" href="/manifest.json">
+
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-animate/angular-animate.js"></script>
     <script src="bower_components/angular-resource/angular-resource.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="sw.js"></script>
 
     <script src="app.module.js"></script>
     <script src="app.config.js"></script>
@@ -26,11 +28,18 @@
 
   </head>
   <body>
-    <p>Test</p>    
+    <p>Test</p>
     <div class="view-container">
       <div ng-view class="view-frame"></div>
     </div>
 
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js').then(function() {
+          console.log("Service Worker Registered");
+        });
+      }
+      </script>
 
   </body>
 </html>
