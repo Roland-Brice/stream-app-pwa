@@ -2,6 +2,7 @@
 <html lang="en" ng-app="streamApp">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <title>Stream App</title>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="app.css"  />
@@ -28,18 +29,23 @@
 
   </head>
   <body>
-    <p>Test</p>
+    <a href="app/index.html">
+        <button>Accueil</button>
+      </a>
+    <a href="audio/audio1.html">
+      <button>Lecteur</button>
+    </a>
     <div class="view-container">
       <div ng-view class="view-frame"></div>
     </div>
-
     <script>
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('/sw.js').then(function() {
           console.log("Service Worker Registered");
         });
       }
-      </script>
+    </script>
+    
 
   </body>
 </html>

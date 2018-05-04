@@ -9,6 +9,9 @@ angular.
       $routeProvider.
         when('/', {
           template: '<song-list></song-list>'
+        }).
+        when('/audio/audio1.html',{
+          template: 'audio/audio1.html'
         });
     }
   ]);

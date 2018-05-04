@@ -29,7 +29,7 @@
            "display": "standalone",
            "orientation": "portrait",
            "theme_color": "aliceblue",
-           "background_color": "red",
+           "background_color": "lightgreen",
            "serviceworker": {
             "src": "./sw.js"
           }
