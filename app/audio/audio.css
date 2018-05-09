@@ -1,0 +1,53 @@
+body{
+	background-color: #f1e7e7;
+}
+ .audioPlayerContener{
+ 	width: 470px;
+ 	height: 135px;
+ 	background: #f3ebdc;
+ 	color: #003ba9;
+ 	box-shadow: 0px 0px 6px 2px #c7a8a8;
+ 	font-family: verdana;
+ 	font-size: 12px;
+
+ }
+ .logo{
+ 	float: left;
+ }
+ .player{
+ 	float: right;
+ 	margin: 7px;
+ }
+ .song-title{
+ 	width: 300px;
+ 	padding: 5px 0px 5px 0px;
+ 	white-space: nowrap;
+ 	text-overflow: ellipsis;
+ 	overflow: hidden;
+
+ }
+ .song-slider{
+ 	width: 300px;
+ 	font-size: 10px;
+ }
+ .current-time{
+ 	float: left;
+ 	font-size: 10px;
+ }
+ .duration{
+ 	float: right;
+ 	font-size: 10px;
+ }
+ 
+ .controllers{
+ 	clear: both;
+ 	display: table;
+ }
+ .controllers * {
+ 	vertical-align: middle;
+ 	margin-right: 2px;
+ }
+ .volume-slider{
+ 	width: 90px;
+ 	margin-left: 5px;
+ }
